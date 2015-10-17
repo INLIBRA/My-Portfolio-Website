@@ -1,0 +1,150 @@
+@media screen and (max-width: 1150px) {
+
+/*********************
+PAGE: HOME
+**********************/
+  #myNavbar li{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em; 
+  }
+
+  #title {
+    font-weight: 500;
+    font-size: 1.1em;
+  }
+
+  #job {
+    font-weight: 300;
+    font-size: 0.9em;
+  }
+
+  #main-slogan {
+    font-size: 4em;
+    font-weight: bolder;
+    margin: 15% 0 3% 3%;
+  }
+
+  #main-paragraph {
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-left: 3%;
+    margin-bottom: 8%;
+  }
+
+/*********************
+PAGE: CONTACT
+**********************/
+
+  #contact-info {
+    margin-top: 10%;
+    margin-left: 7%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  
+/*********************
+PAGE: HOME
+**********************/
+
+  #logo {
+    margin: 0;
+    min-height: 60px;
+    min-width: 60px;
+  }
+
+  #job {
+    letter-spacing: 0;
+    margin: 0;
+  }
+
+  #myNavbar li{
+    font-size: 1.1em;
+    margin-left: 0.3em;
+    margin-right: 0.3em; 
+  }
+
+  #main-slogan {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 25% 0 5% 3%;
+  }
+
+  #main-paragraph {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-left: 3%;
+    margin-bottom: 8%;
+  }
+
+/*********************
+PAGE: CONTACT
+**********************/
+
+  #contact-info {
+    margin: 3%;
+  }
+
+  #contact {
+    background: #dddddd;
+  }
+
+  #contact-info p {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  #contact-picture {
+    display: inline;
+    margin: -35% 10% 0 10%;
+    height: 250px;
+    width: 250px;
+}
+
+  /*************
+  FOOTER
+  **************/
+
+  #footer {
+    font-size: 0.9em;
+    padding-top: 100px;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+/*********************
+HOME
+*********************/
+
+#logo {
+  display: none;
+}
+
+/*********************
+PAGE: CONTACT
+**********************/
+
+#contact-picture {
+  margin: -45% 5% 0 5%;
+  height: 180px;
+  width: 180px;
+  }
+
+#contact-info p {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+/*************
+FOOTER
+**************/
+
+#footer {
+  font-size: 0.8em;
+  padding-top: 50px;
+  }
+
+}
+
