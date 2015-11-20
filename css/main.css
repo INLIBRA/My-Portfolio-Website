@@ -49,6 +49,10 @@ body {
  .navbar {
  	background-color: rgba(0, 0, 0, 0.7);
  	min-height: 60px;
+ 	/* Create a new layer. This works in Chrome, Opera and Firefox */
+  	will-change: transform;
+  	/* Create a new layer. This works in Safari */
+  	transform: translateZ(0);
  }
 
  #myNavbar {
@@ -113,6 +117,10 @@ PROJECTS
 **************************/
 #projects {
 	background-color: #dddddd;
+	/* Create a new layer. This works in Chrome, Opera and Firefox */
+  	will-change: transform;
+  	/* Create a new layer. This works in Safari */
+  	transform: translateZ(0);
 }
 
 .project {
