@@ -110,10 +110,6 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/* Create a new layer. This works in Chrome, Opera and Firefox */
-  	will-change: transform;
-  	/* Create a new layer. This works in Safari */
-  	transform: translateZ(0);
 }
 
 /*************************
@@ -170,10 +166,6 @@ CONTACT
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/* Create a new layer. This works in Chrome, Opera and Firefox */
-	 will-change: transform;
-	 /* Create a new layer. This works in Safari */
-	 transform: translateZ(0);
 }
 
 #contact-info {
