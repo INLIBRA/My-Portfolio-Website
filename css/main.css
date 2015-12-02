@@ -103,9 +103,10 @@ body {
  }
 
 .bgr-img {
-	background-color: #dddddd;
-	background: url(../images/my_computer_best_4.jpg) no-repeat fixed bottom right transparent;
-	z-index: -1;
+	background-image: url("../images/my_computer_best_4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -115,14 +116,6 @@ body {
 /*************************
 PROJECTS
 **************************/
-#projects {
-	background-color: #dddddd;
-	/* Create a new layer. This works in Chrome, Opera and Firefox */
-  	will-change: transform;
-  	/* Create a new layer. This works in Safari */
-  	transform: translateZ(0);
-}
-
 .project {
 	margin: 5% 5% 5% 5%;
 }
@@ -160,8 +153,10 @@ PROJECTS
 CONTACT
 **************************/
 #contact {
-	background-color: #dddddd;
-	background: url("../images/contact_pic_best.jpg") no-repeat fixed bottom right transparent;
+	background-image: url("../images/contact_pic_best.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
