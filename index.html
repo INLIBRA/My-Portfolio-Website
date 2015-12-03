@@ -121,28 +121,5 @@
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" async></script>
-		<script type="text/javascript">
-				function preloadImages(array) {
-    if (!preloadImages.list) {
-        preloadImages.list = [];
-    }
-    var list = preloadImages.list;
-    for (var i = 0; i < array.length; i++) {
-        var img = new Image();
-        img.onload = function() {
-            var index = list.indexOf(this);
-            if (index !== -1) {
-                // remove image from the array once it's loaded
-                // for memory consumption reasons
-                list.splice(index, 1);
-            }
-        }
-        list.push(img);
-        img.src = array[i];
-    }
-}
-
-preloadImages(["images/logo-small.png", "images/numbers-01-small.jpg", "images/my_computer_best_4.jpg", "images/contact_pic_best.jpg", "images/separator.png", "images/me_pic.jpg"]);
-		</script>
 	</body>
 </html>
